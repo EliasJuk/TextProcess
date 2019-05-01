@@ -1,0 +1,29 @@
+/*CSS*/
+*{margin: 0; padding: 0;}
+
+body {background-color: #452478; margin: 0 auto; font-family: arial;}
+
+
+/*CABEÇALHO*/
+div#cabecalho { background-color: #1C1C1C; height: 50px; position: relative; width: 100%;}
+ul {position: absolute; margin: 0 auto; top: 16px; margin-left: 20px;}
+li { background-color: #651212; display: inline; padding: 10px; color: #ffffff;}
+li:hover {background-color: #128820;}
+
+
+/*CORPO*/
+div#corpo {background-color: #ffffff; margin: 0 auto; width: 70%; height: 1200px; position: relative;}
+
+
+section {margin-left: 2%; position: relative; display: block; margin-top: 0px; top: 15px;}
+
+
+a {text-decoration:none; color: #ffffff;}
+a:hover {color: #000000;}
+
+
+textarea{width: 98%; position: relative;}
+
+
+/*FOOTER*/
+div#footer {background-color: #1C1C1C; width: 100%; bottom: 0; position: relative; height: 100px; margin-top: -18px;}
