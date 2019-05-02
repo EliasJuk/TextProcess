@@ -1,0 +1,13 @@
+Enumerate()
+
+    Dim Linha As Integer
+    Linha = 1
+    parada = 10
+
+    Do While Linha <= 1000
+        Cells(Linha, 1).Value = parada + 1
+        Linha = Linha + 1
+        parada = parada + 1
+    Loop
+
+End Sub
